@@ -1101,32 +1101,32 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
-"@floating-ui/core@^1.4.2":
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/@floating-ui/core/-/core-1.5.0.tgz#5c05c60d5ae2d05101c3021c1a2a350ddc027f8c"
-  integrity sha512-kK1h4m36DQ0UHGj5Ah4db7R0rHemTqqO0QLvUqi1/mUUp3LuAWbWxdxSIf/XsnH9VS6rRVPLJCncjRzUvyCLXg==
+"@floating-ui/core@^1.0.0":
+  version "1.6.3"
+  resolved "https://registry.yarnpkg.com/@floating-ui/core/-/core-1.6.3.tgz#5e7bb92843f47fd1d8dcb9b3cc3c243aaed54f95"
+  integrity sha512-1ZpCvYf788/ZXOhRQGFxnYQOVgeU+pi0i+d0Ow34La7qjIXETi6RNswGVKkA6KcDO8/+Ysu2E/CeUmmeEBDvTg==
   dependencies:
-    "@floating-ui/utils" "^0.1.3"
+    "@floating-ui/utils" "^0.2.3"
 
-"@floating-ui/dom@^1.5.1":
-  version "1.5.3"
-  resolved "https://registry.yarnpkg.com/@floating-ui/dom/-/dom-1.5.3.tgz#54e50efcb432c06c23cd33de2b575102005436fa"
-  integrity sha512-ClAbQnEqJAKCJOEbbLo5IUlZHkNszqhuxS4fHAVxRPXPya6Ysf2G8KypnYcOTpx6I8xcgF9bbHb6g/2KpbV8qA==
+"@floating-ui/dom@^1.0.0":
+  version "1.6.6"
+  resolved "https://registry.yarnpkg.com/@floating-ui/dom/-/dom-1.6.6.tgz#be54c1ab2d19112ad323e63dbeb08185fed0ffd3"
+  integrity sha512-qiTYajAnh3P+38kECeffMSQgbvXty2VB6rS+42iWR4FPIlZjLK84E9qtLnMTLIpPz2znD/TaFqaiavMUrS+Hcw==
   dependencies:
-    "@floating-ui/core" "^1.4.2"
-    "@floating-ui/utils" "^0.1.3"
+    "@floating-ui/core" "^1.0.0"
+    "@floating-ui/utils" "^0.2.3"
 
-"@floating-ui/react-dom@^2.0.2":
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/@floating-ui/react-dom/-/react-dom-2.0.2.tgz#fab244d64db08e6bed7be4b5fcce65315ef44d20"
-  integrity sha512-5qhlDvjaLmAst/rKb3VdlCinwTF4EYMiVxuuc/HVUjs46W0zgtbMmAZ1UTsDrRTxRmUEzl92mOtWbeeXL26lSQ==
+"@floating-ui/react-dom@^2.1.0":
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/@floating-ui/react-dom/-/react-dom-2.1.1.tgz#cca58b6b04fc92b4c39288252e285e0422291fb0"
+  integrity sha512-4h84MJt3CHrtG18mGsXuLCHMrug49d7DFkU0RMIyshRveBeyV2hmV/pDaF2Uxtu8kgq5r46llp5E5FQiR0K2Yg==
   dependencies:
-    "@floating-ui/dom" "^1.5.1"
+    "@floating-ui/dom" "^1.0.0"
 
-"@floating-ui/utils@^0.1.3":
-  version "0.1.6"
-  resolved "https://registry.yarnpkg.com/@floating-ui/utils/-/utils-0.1.6.tgz#22958c042e10b67463997bd6ea7115fe28cbcaf9"
-  integrity sha512-OfX7E2oUDYxtBvsuS4e/jSn4Q9Qb6DzgeYtsAdkPZ47znpoNsMgZw0+tVijiv3uGNR6dgNlty6r9rzIzHjtd/A==
+"@floating-ui/utils@^0.2.3":
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/@floating-ui/utils/-/utils-0.2.3.tgz#506fcc73f730affd093044cb2956c31ba6431545"
+  integrity sha512-XGndio0l5/Gvd6CLIABvsav9HHezgDFFhDfHk1bvLfr9ni8dojqLSvBbotJEjmIwNHL7vK4QzBJTdBRoB+c1ww==
 
 "@humanwhocodes/config-array@^0.5.0":
   version "0.5.0"
@@ -1591,10 +1591,10 @@
     "@svgr/plugin-jsx" "8.1.0"
     "@svgr/plugin-svgo" "8.1.0"
 
-"@swc/helpers@^0.5.0", "@swc/helpers@^0.5.1", "@swc/helpers@^0.5.2":
-  version "0.5.2"
-  resolved "https://registry.yarnpkg.com/@swc/helpers/-/helpers-0.5.2.tgz#85ea0c76450b61ad7d10a37050289eded783c27d"
-  integrity sha512-E4KcWTpoLHqwPHLxidpOqQbcrZVgi0rsmmZXUle1jXmJfuIf/UWpczUJ7MZZ5tlxytgJXyp0w4PGkkeLiuIdZw==
+"@swc/helpers@^0.5.0", "@swc/helpers@^0.5.11":
+  version "0.5.11"
+  resolved "https://registry.yarnpkg.com/@swc/helpers/-/helpers-0.5.11.tgz#5bab8c660a6e23c13b2d23fcd1ee44a2db1b0cb7"
+  integrity sha512-YNlnKRWF2sVojTpIyzwou9XoTNbzbzONwRhOoniEioF1AtaitTvVZblaQRrAzChWQ1bLYyYSWzM18y4WwgzJ+A==
   dependencies:
     tslib "^2.4.0"
 
@@ -2103,12 +2103,12 @@
   dependencies:
     "@swc/helpers" "^0.5.0"
 
-"@vkontakte/icons-sprite@2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@vkontakte/icons-sprite/-/icons-sprite-2.0.0.tgz#5153e4d16f6c1c433a58cd4e099d9326a070cecc"
-  integrity sha512-P/AMcwSfiRY0tEEMv6jIt5FgAo7lr4K8uCeOD/c8CCuLEZFoUfMW7D50IWaGKHyCTWgPIFgGFiOypj45pD5hVg==
+"@vkontakte/icons-sprite@2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@vkontakte/icons-sprite/-/icons-sprite-2.2.0.tgz#b736ed8581c9565ea40aaa55377cf4ec6ed2f192"
+  integrity sha512-Ga+8INgja4hhcMTc18bmragb54C/2Q84/L6H5g4DT64+lXpyCbtgEDla32faVUxZI0jP+/nKvOdzbchDT3AEUw==
   dependencies:
-    "@swc/helpers" "^0.5.1"
+    "@swc/helpers" "^0.5.11"
 
 "@vkontakte/icons@2.54.0":
   version "2.54.0"
@@ -2117,12 +2117,12 @@
   dependencies:
     "@vkontakte/icons-sprite" "1.1.1"
 
-"@vkontakte/icons@^2.62.0":
-  version "2.70.0"
-  resolved "https://registry.yarnpkg.com/@vkontakte/icons/-/icons-2.70.0.tgz#6c43e79282a2e7d8bec5d6bbf993d8bf9926b718"
-  integrity sha512-HScI+Nnxh3fUBIs70iUzBAVE3AdlNKRvVDKlCbMRztGY/Ep+jx6A01efvRfBoRd+8MjcV2frT0wOnbICydxhOA==
+"@vkontakte/icons@^2.115.0":
+  version "2.122.0"
+  resolved "https://registry.yarnpkg.com/@vkontakte/icons/-/icons-2.122.0.tgz#a0e9452daa3fb7c0d8fc661cd7e8a91b682b0527"
+  integrity sha512-kMHKEq357wSllq734cbjQ7YBprZknmC/rE+Yy7qX9OPIgwnNX+sx03zRDAtdMDi55VQ0J9mSCRelzsyBNWoNUg==
   dependencies:
-    "@vkontakte/icons-sprite" "2.0.0"
+    "@vkontakte/icons-sprite" "2.2.0"
 
 "@vkontakte/prettier-config@0.1.0":
   version "0.1.0"
@@ -2134,23 +2134,38 @@
   resolved "https://registry.yarnpkg.com/@vkontakte/vk-bridge/-/vk-bridge-2.11.1.tgz#28cdb8d25fe3f0f81f6620bdf08f6a235573091f"
   integrity sha512-GOtL/u4ju1PLJW+GqFUulS5zmmhu1o0AG2Y0HTx4a07Wbpdp7XvGsOjp/xkOILjFVDSZtNQJ64ud6xwei3q+Iw==
 
-"@vkontakte/vkjs@1.1.0", "@vkontakte/vkjs@^1.1.0":
+"@vkontakte/vkjs@1.1.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@vkontakte/vkjs/-/vkjs-1.1.0.tgz#7bb12ae0f2e9b4a4a7482709bd71c1a223aff4ed"
   integrity sha512-cBhngz1x4lwctQJMgXrmCsgbmA7DsLlRASlCKJtDf65BU3pqybW+GIyCSDOYKqGQOk4c8n5MgA3uTCHUWufSdw==
   dependencies:
     "@swc/helpers" "^0.5.0"
 
-"@vkontakte/vkui@5.9.1":
-  version "5.9.1"
-  resolved "https://registry.yarnpkg.com/@vkontakte/vkui/-/vkui-5.9.1.tgz#7b400ba8729423c548a1ddc75b83e141562ebc39"
-  integrity sha512-h+HKge+G2Xgq75IJys6FKy/MkN1XfyLDyf9naZDA/WxvneRbUustUJxqvYp1A+v/SPOUw39nesaaqinrhPSgxw==
+"@vkontakte/vkjs@^1.1.2":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@vkontakte/vkjs/-/vkjs-1.2.0.tgz#ca4fa56f53aa84f25d072534c50fe73106400a64"
+  integrity sha512-l5u3EGvKACQaSB3DFphY3PNgmkK7H2KZ/6XqHcqqkwAw1wrMu4ESWvkyczLxaa6/9hMTfw2Jj3VssiYDaHhbeg==
   dependencies:
-    "@floating-ui/react-dom" "^2.0.2"
-    "@swc/helpers" "^0.5.2"
-    "@vkontakte/icons" "^2.62.0"
-    "@vkontakte/vkjs" "^1.1.0"
-    dayjs "^1.11.10"
+    "@swc/helpers" "^0.5.0"
+
+"@vkontakte/vkui-floating-ui@^0.2.1":
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/@vkontakte/vkui-floating-ui/-/vkui-floating-ui-0.2.1.tgz#f61b4083565a2f3b3f32c011525b6e492b6a904f"
+  integrity sha512-uzAiO/ghswztEjaXCJoOeIP9X7gXBZ0ChYiMQ4yrbzy/eQ4BDseqbOoI9fbdXmJsGU47fjdWYE1AtONbRyQnVw==
+  dependencies:
+    "@floating-ui/react-dom" "^2.1.0"
+    "@swc/helpers" "^0.5.11"
+
+"@vkontakte/vkui@6.1.2":
+  version "6.1.2"
+  resolved "https://registry.yarnpkg.com/@vkontakte/vkui/-/vkui-6.1.2.tgz#cdf2a6218d911dcf4d5a2911b0d7787a28c67cda"
+  integrity sha512-SIdLEHPkCCuMnNoqAPsdPg3Em86vCWX22W6tQKODG3qnI3t6xfcyucKPJ0FbM0zOnWpJkm2nzd5p5ecFqPKzlw==
+  dependencies:
+    "@swc/helpers" "^0.5.11"
+    "@vkontakte/icons" "^2.115.0"
+    "@vkontakte/vkjs" "^1.1.2"
+    "@vkontakte/vkui-floating-ui" "^0.2.1"
+    dayjs "^1.11.11"
     mitt "^3.0.1"
 
 "@webassemblyjs/ast@1.11.6", "@webassemblyjs/ast@^1.11.5":
@@ -3351,10 +3366,10 @@ damerau-levenshtein@^1.0.6:
   resolved "https://registry.yarnpkg.com/damerau-levenshtein/-/damerau-levenshtein-1.0.8.tgz#b43d286ccbd36bc5b2f7ed41caf2d0aba1f8a6e7"
   integrity sha512-sdQSFB7+llfUcQHUQO3+B8ERRj0Oa4w9POWMI/puGtuf7gFywGmkaLCElnudfTiKZV+NvHqL0ifzdrI8Ro7ESA==
 
-dayjs@^1.11.10:
-  version "1.11.10"
-  resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.11.10.tgz#68acea85317a6e164457d6d6947564029a6a16a0"
-  integrity sha512-vjAczensTgRcqDERK0SR2XMwsF/tSvnvlv6VcF2GIhg6Sx4yOIt/irsr1RDJsKiIyBzJDpCoXiWWq28MqH2cnQ==
+dayjs@^1.11.11:
+  version "1.11.11"
+  resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.11.11.tgz#dfe0e9d54c5f8b68ccf8ca5f72ac603e7e5ed59e"
+  integrity sha512-okzr3f11N6WuqYtZSvm+F776mB41wRZMhKP+hc34YdW+KmtYYK9iqvHSwo2k9FEH3fhGXvOPV6yz2IcSrfRUDg==
 
 debug@2.6.9, debug@^2.2.0, debug@^2.3.3, debug@^2.6.9:
   version "2.6.9"
@@ -7726,7 +7741,16 @@ string-length@^4.0.1:
     char-regex "^1.0.2"
     strip-ansi "^6.0.0"
 
-"string-width-cjs@npm:string-width@^4.2.0", string-width@^4.1.0, string-width@^4.2.0, string-width@^4.2.3:
+"string-width-cjs@npm:string-width@^4.2.0":
+  version "4.2.3"
+  resolved "https://registry.yarnpkg.com/string-width/-/string-width-4.2.3.tgz#269c7117d27b05ad2e536830a8ec895ef9c6d010"
+  integrity sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==
+  dependencies:
+    emoji-regex "^8.0.0"
+    is-fullwidth-code-point "^3.0.0"
+    strip-ansi "^6.0.1"
+
+string-width@^4.1.0, string-width@^4.2.0, string-width@^4.2.3:
   version "4.2.3"
   resolved "https://registry.yarnpkg.com/string-width/-/string-width-4.2.3.tgz#269c7117d27b05ad2e536830a8ec895ef9c6d010"
   integrity sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==
@@ -7800,7 +7824,14 @@ string_decoder@~1.1.1:
   dependencies:
     safe-buffer "~5.1.0"
 
-"strip-ansi-cjs@npm:strip-ansi@^6.0.1", strip-ansi@^6.0.0, strip-ansi@^6.0.1:
+"strip-ansi-cjs@npm:strip-ansi@^6.0.1":
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/strip-ansi/-/strip-ansi-6.0.1.tgz#9e26c63d30f53443e9489495b2105d37b67a85d9"
+  integrity sha512-Y38VPSHcqkFrCpFnQ9vuSXmquuv5oXOKpGeT6aGrr3o3Gc9AlVa6JBfUSOCnbxGGZF+/0ooI7KrPuUSztUdU5A==
+  dependencies:
+    ansi-regex "^5.0.1"
+
+strip-ansi@^6.0.0, strip-ansi@^6.0.1:
   version "6.0.1"
   resolved "https://registry.yarnpkg.com/strip-ansi/-/strip-ansi-6.0.1.tgz#9e26c63d30f53443e9489495b2105d37b67a85d9"
   integrity sha512-Y38VPSHcqkFrCpFnQ9vuSXmquuv5oXOKpGeT6aGrr3o3Gc9AlVa6JBfUSOCnbxGGZF+/0ooI7KrPuUSztUdU5A==
@@ -8497,7 +8528,16 @@ wildcard@^2.0.0:
   resolved "https://registry.yarnpkg.com/wildcard/-/wildcard-2.0.1.tgz#5ab10d02487198954836b6349f74fff961e10f67"
   integrity sha512-CC1bOL87PIWSBhDcTrdeLo6eGT7mCFtrg0uIJtqJUFyK+eJnzl8A1niH56uu7KMa5XFrtiV+AQuHO3n7DsHnLQ==
 
-"wrap-ansi-cjs@npm:wrap-ansi@^7.0.0", wrap-ansi@^7.0.0:
+"wrap-ansi-cjs@npm:wrap-ansi@^7.0.0":
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/wrap-ansi/-/wrap-ansi-7.0.0.tgz#67e145cff510a6a6984bdf1152911d69d2eb9e43"
+  integrity sha512-YVGIj2kamLSTxw6NsZjoBxfSwsn0ycdesmc4p+Q21c5zPuZ1pl+NfxVdxPtdHvmNVOQ6XSYG4AUtyt/Fi7D16Q==
+  dependencies:
+    ansi-styles "^4.0.0"
+    string-width "^4.1.0"
+    strip-ansi "^6.0.0"
+
+wrap-ansi@^7.0.0:
   version "7.0.0"
   resolved "https://registry.yarnpkg.com/wrap-ansi/-/wrap-ansi-7.0.0.tgz#67e145cff510a6a6984bdf1152911d69d2eb9e43"
   integrity sha512-YVGIj2kamLSTxw6NsZjoBxfSwsn0ycdesmc4p+Q21c5zPuZ1pl+NfxVdxPtdHvmNVOQ6XSYG4AUtyt/Fi7D16Q==
